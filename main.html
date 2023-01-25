@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <title>Phidipus Audax</title>
         <style>
-            header, h4 {
+            header, h3 {
               text-align: center;
               font-size: 40px;
               font-family: fantasy;
             }
 
-            img {
+            #img1 {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -18,22 +18,88 @@
                 border-radius: 50%;
             }
 
+            p {
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+                font-size: 45px;
+                font-family: fantasy;
+            }
+            #img2 {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
+                border-radius: 50%;
+                height: 300px;
+            }
+
+            #img3 {
+                /*display: block;*/
+                /*margin-left: auto;*/
+                /*margin-right: auto;*/
+                width: 15%;
+                border-radius: 20%;
+                height: 150px;
+            }
+
+            #pets {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
 
         </style>
     </head>
-    <body>
-        <header>
-            <h1>Phiddipus Audax</h1>
-            <hr>
-        </header>
-        <img src="images/phiddipusa1.jpeg" alt="Bold jumping spider">
-        <h4>Where we are found</h4>
-        <p>The Phiddipus audax, also known as the bold jumping spider are native to North America and have been introduced to Hawaii, Nicobar Islands, Azores and the netherlands</p>
+        <body>
+            <header>
+                <h1>Phiddipus Audax</h1>
+                <hr>
+            </header>
+            <div>
+                <img id="img1" src="images/phiddipusa1.jpeg" alt="Bold jumping spider">
+                <h3><b>Where we are found</b></h3>
+                <p style="font-size: 25px">
+                    The Phiddipus audax, also known as the bold jumping spider <br>
+                    are native to North America and have been introduced to Hawaii, <br>
+                    Nicobar Islands, Azores and the netherlands.
+                </p>
+            </div>
+
+            <div>
+                <img id="img2" src="images/ruiworm.jpg" alt="Bold jumping spider">
+                <h3><b>What do we eat?</b></h3>
+                <p style="font-size: 25px">
+                    Jumping spiders are hunters and do not use a web to catch prey.<br>
+                    The bold jumping spider eats various small to medium  <br>
+                    insects such as mealworms, flies and crickets. <br>
+                </p>
+            </div>
+
+            <div>
+                <img id="img2" src="images/phiddipusa3.jpg" alt="Bold jumping spider">
+                <h3><b>Eight legged kittens</b></h3>
+                <p style="font-size: 25px">
+                    As their common name states, the bold jumping spider is just that <b>BOLD</b> or audacious.  <br>
+                    A french <i title="Nicholas Marcellus Hentz">arachnologist</i> first described them as "very bold, often jumping on the hand which threatens it."<br>
+                    Bites from bold jumpers are rare but can occur if they feel threatened or mishandled <br>
+                     Though they may look intimidating they really are just eight legged kittens.<br>
+                </p>
+            </div>
+
+            <div>
+                <h1 style="font-family: fantasy; font-weight: bold; text-align: center">Enjoy some pictures of my personal pets!</h1>
+                <div id="pets">
+                    <img id="img3" src="images/ruihammock.jpg" alt="spider in hole">
+                    <img id="img3" src="images/inko2.jpg" alt="spider in hole">
+                    <img id="img3" src="images/inko.jpg" alt="spider in hole">
+                </div>
+            </div>
 
 
 
 
-
-
-    </body>
+        </body>
 </html>
